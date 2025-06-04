@@ -1,0 +1,51 @@
+#MarcBrown{
+    text-align: center;
+    background-color: cornflowerblue;
+    line-height: 80px;
+    color: aqua;
+}
+.one{
+    font-weight: bold;
+    font-family: aakar;
+}
+#team{
+    background-color: mediumaquamarine;
+    margin: 40px;
+    padding: 30px;
+    color: coral;
+    border-radius: 20px;
+}
+#team:hover{
+    background-color: aqua;
+    opacity: 0.5;
+}
+#product{
+    display: flex;
+    margin: 20px;
+}
+#image{
+    margin-right: 30px;
+    border-radius: 200px;
+}
+#two{
+    display: flex;
+}
+#main{
+display: flex;
+}
+.myimage{
+    width: 100%;
+    height: 300px;
+}
+.sub{
+    text-align: center;
+    margin-left: 20px;
+}
+.sub h2{
+    color: gray;
+}
+.sub button{
+    background-color: darkorchid;
+    padding: 20px;
+    border-radius: 20px;
+}

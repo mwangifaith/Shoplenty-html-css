@@ -1,0 +1,51 @@
+body{
+    background-image: url("../assets/blue.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+form{
+    background-color: purple;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    color: wheat;
+}
+
+legend{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0 0 10px brown;
+    font-family: Ani;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=tel], input[type=date], select{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px wheat;
+}
+
+button{
+    background-color: wheat;
+    padding: 10px;
+    width: 30%;
+    color: brown;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
+input[type=text]:focus{
+    background-color: aqua;
+}
